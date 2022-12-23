@@ -1,0 +1,28 @@
+.parentdiv {
+  width: 400px;
+  margin: 10% auto;
+  height: 300px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 20px;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  box-sizing: border-box;
+  /* margin: 0 auto; */
+}
+
+.parentdiv div {
+  align-items: center;
+  width: 150px;
+  height: 70px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  /* padding: 20px; */
+}
+
+.firstdiv{
+    align-items: center;
+    transition: 0.8s;
+}
