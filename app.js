@@ -5,6 +5,8 @@ const box4 = document.querySelector(".fourthdiv");
 const box5 = document.querySelector(".fifthdiv");
 const box6 = document.querySelector(".sixthdiv");
 const btn = document.querySelector("button");
+const btns = document.querySelectorAll('.btn')[2]
+console.log(btns)
 console.log(box1);
 const arr = ["yellow", "black", "green", "red", "blue"];
 
