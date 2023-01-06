@@ -1,3 +1,18 @@
+.ancestordiv{
+  /* background-image: url(./images/worldcup\ logo.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  z-index: 0.5; */
+  /* width: 200%; */
+}
+.logo{
+position: relative;
+bottom: 0;
+top: 1000px;
+left: 120%;
+width: 400px;
+}
 .box1 {
   /* background-color: red; */
   width: 200px;
@@ -297,24 +312,37 @@ hr {
   width: 100px;
   height: 50px;
   border-radius: 20px;
+  font-weight: 700;
+  font-size: 20px;
+
 }
 .btn1 {
   width: 200px;
   height: 50px;
   border-radius: 20px;
+  font-weight: 700;
+  font-size: 20px;
+
 }
 .btn2 {
   width: 200px;
   height: 50px;
   border-radius: 20px;
+  font-weight: 700;
+  font-size: 20px;
+
 }
 .alertbtn {
   width: 200px;
   height: 50px;
   border-radius: 20px;
+  font-weight: 700;
+  font-size: 20px;
+
 }
 .btndivs {
   margin: 0 auto;
   width: 80%;
   text-align: right;
+  font-weight: 700;
 }

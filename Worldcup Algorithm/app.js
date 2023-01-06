@@ -2,6 +2,14 @@ const btn = document.querySelector(".btn");
 const btn1 = document.querySelector(".btn1");
 const btn2 = document.querySelector(".btn2");
 const btn3 = document.querySelector(".alertbtn");
+const prebtn1 = document.querySelector(".prebtn1");
+const prebtn2 = document.querySelector(".prebtn2");
+const prebtn3 = document.querySelector(".prebtn3");
+const prebtn4 = document.querySelector(".prebtn4");
+const prebtn5 = document.querySelector(".prebtn5");
+const prebtn6 = document.querySelector(".prebtn6");
+const prebtn7 = document.querySelector(".prebtn7");
+const prebtn8 = document.querySelector(".prebtn8");
 const box1 = document.querySelector(".box1");
 const box2 = document.querySelector(".box2");
 const box3 = document.querySelector(".box3");
@@ -34,13 +42,27 @@ btn.addEventListener("click", () => {
 
   //generate countries
   box1.textContent = arr[result];
+  prebtn1.textContent = box1.textContent
   box2.textContent = arr1[result];
+  prebtn2.textContent = box2.textContent
   box3.textContent = arr2[result];
+  prebtn3.textContent = box3.textContent
+
   box4.textContent = arr3[result];
+  prebtn4.textContent = box4.textContent
+
   box5.textContent = arr4[result];
+  prebtn5.textContent = box5.textContent
+
   box6.textContent = arr5[result];
+  prebtn6.textContent = box6.textContent
+
   box7.textContent = arr6[result];
+  prebtn7.textContent = box7.textContent
+
   box8.textContent = arr7[result];
+  prebtn8.textContent = box8.textContent
+
 });
 
 btn1.addEventListener("click", () => {
